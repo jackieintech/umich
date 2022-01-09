@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<script src="js/myscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></css>
+</head>
+<body onclick="setDate()"> Welcome to Jackie's page. 
+	<p>Click to update date and time: <span id = "date".></span></p>
+<br><br>
+		<button onclick="warning()">Click me and I'll say "Hello"</button>
+
+	<h1>Modify the DOM</h1>
+	<button onclick="document.getElementById('stuff').innerHTML = 
+	'Clicked the First Button';">First</button>
+	<button onclick="document.getElementById('stuff').innerHTML = 
+	'Clicked the Second Button';">Second</button>
+
+	<p>This won't change.</p>
+	<p id="stuff">This WILL change!</p>
+	<p>This won't change.</p>
+
+	<h2>Changing the Style</h2>
+
+	<button type="button" onclick="openMe()">Open!</button>
+	<button type="button" onclick="closeMe()">Close!</button>
+
+	<p id="demo">Open and close me!</p>
+</body>
+</html>
